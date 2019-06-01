@@ -1,0 +1,50 @@
+{
+  "name": "@magic-modules/light-switch",
+  "version": "0.0.1",
+  "author": "Wizards & Witches",
+  "description": "@magic-modules LightSwitch. change colors to dark mode.",
+  "homepage": "https://github.com/magic-modules/light-switch#readme",
+  "license": "AGPL-3.0",
+  "engines": {
+    "node": ">=12.2.0"
+  },
+  "scripts": {
+    "start": "t -p",
+    "format": "f -w --exclude docs",
+    "test": "t --exclude docs example config.js",
+    "build": "NODE_ENV=production magic build",
+    "prod": "NODE_ENV=production magic build serve",
+    "dev": "magic dev --watch src",
+    "calls": "calls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magic-modules/light-switch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/magic-modules/light-switch/issues"
+  },
+  "main": "src/index.mjs",
+  "module": "src/index.mjs",
+  "type": "module",
+  "files": [
+    "src"
+  ],
+  "devDependencies": {
+    "@magic-modules/git-badges": "github:magic-modules/git-badges",
+    "@magic-modules/pre": "github:magic-modules/pre",
+    "@magic-themes/docs": "github:magic-themes/docs",
+    "@magic/core": "github:magic/core",
+    "@magic/test": "0.1.9"
+  },
+  "keywords": [
+    "magic",
+    "dark mode"
+  ],
+  "contributors": [
+    {
+      "name": "jascha ehrenreich",
+      "github": "jaeh"
+    }
+  ]
+}
