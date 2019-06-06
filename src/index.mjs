@@ -12,13 +12,14 @@ export const state = {
 }
 
 export const actions = {
-  changeTheme: state => {
-    const newTheme = state.theme === 'dark' ? 'light' : 'dark'
-    return {
-      ...actions.page.replaceClass(state, [state.theme, newTheme]),
-      theme: newTheme,
-    }
-  },
+  changeTheme: state => ({
+    ...state,
+    pageClass: {
+      ...state.pageClass,
+      light: state.theme === 'dark',
+    },
+    theme: state.theme === 'dark' ? 'light' : 'dark',
+  }),
 }
 
 export const style = (vars = {}) => ({
