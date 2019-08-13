@@ -30,7 +30,11 @@ export const style = (vars = {}) => ({
   width: '2em',
 
   '.light&&': {
-    backgroundColor: vars.textColorLight || '#000',
+    backgroundColor: vars.textColorLight || vars.colors.gray[100],
+
+    '&:hover': {
+      backgroundColor: vars.colors.gray[700],
+    },
   },
 })
 
