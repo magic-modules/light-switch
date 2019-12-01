@@ -13,8 +13,8 @@ LightSwitch component. It provides a dynamic dark/light mode switch button
 
 [npm-image]: https://img.shields.io/npm/v/@magic-modules/light-switch.svg
 [npm-url]: https://www.npmjs.com/package/@magic-modules/light-switch
-[travis-image]: https://api.travis-ci.org/magic-modules/light-switch.svg?branch=master
-[travis-url]: https://travis-ci.org/magic-modules/light-switch
+[travis-image]: https://img.shields.io/travis/com/magic-modules/light-switch/master
+[travis-url]: https://travis-ci.com/magic-modules/light-switch
 [appveyor-image]: https://img.shields.io/appveyor/ci/magicmodules/light-switch/master.svg
 [appveyor-url]: https://ci.appveyor.com/project/magicmodules/light-switch/branch/master
 [coveralls-image]: https://coveralls.io/repos/github/magic-modules/light-switch/badge.svg
