@@ -11,7 +11,7 @@ export const View = state => [
   GitBadges('magic-modules/light-switch'),
 
   h2({ id: 'installation' }, 'installation:'),
-  Pre('npm install magic-modules/light-switch'),
+  Pre('npm install @magic-modules/light-switch'),
 
   h2({ id: 'usage' }, 'usage:'),
   p('in a page or module View'),
