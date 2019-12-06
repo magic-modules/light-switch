@@ -43,3 +43,12 @@ simply pass `left` and/or `bottom` as part of the props:
 ```javascript
 export const View = state => [LightSwitch({ ...state, left: true, bottom: true })]
 ```
+
+#### changelog
+
+##### 0.0.1
+first commit
+
+##### 0.0.2
+use @magic npm packages instead of github for installs
+
