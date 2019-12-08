@@ -40,7 +40,11 @@
   },
   "keywords": [
     "magic",
-    "dark mode"
+    "dark",
+    "light",
+    "mode",
+    "magic-modules",
+    "hyperapp"
   ],
   "contributors": [
     {
