@@ -23,17 +23,21 @@ export const actions = {
 }
 
 export const style = (vars = {}) => ({
-  backgroundColor: vars.textColor || '#EEEEEE',
+  backgroundColor: vars.colors.gray[500],
   border: '0 none',
   borderRadius: '100%',
   height: '2em',
   width: '2em',
 
+  '&:hover': {
+    backgroundColor: vars.colors.gray[700],
+  },
+
   '.light&&': {
-    backgroundColor: vars.textColorLight || vars.colors.gray[100],
+    backgroundColor: vars.colors.gray[700],
 
     '&:hover': {
-      backgroundColor: vars.colors.gray[700],
+      backgroundColor: vars.colors.gray[500],
     },
   },
 })
