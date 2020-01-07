@@ -56,4 +56,7 @@ use @magic npm packages instead of github for installs
 default colors are adapted for @magic-themes/docs
 
 ##### 0.0.4 - unreleased
+require node 13.5.0
+
+##### 0.0.5 - unreleased
 ...
