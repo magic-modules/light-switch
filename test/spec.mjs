@@ -48,6 +48,6 @@ export default [
   {
     fn: () => LightSwitch.propTypes.LightSwitch,
     expect: is.array,
-    info: 'expect LightSwitch.propTypes.LightSwitch to be an array'
+    info: 'expect LightSwitch.propTypes.LightSwitch to be an array',
   },
 ]
