@@ -59,5 +59,8 @@ default colors are adapted for @magic-themes/docs
 * require node 13.5.0
 * use svg graphic instead of a dot
 
-##### 0.0.5 - unreleased
+##### 0.0.5
+* update svg
+
+##### 0.0.6 - unreleased
 ...
