@@ -4,7 +4,7 @@ this is the
 [@magic-modules](https://github.com/magic-modules)
 LightSwitch component. It provides a color theme switch button.
 
-<GitBadges>magic-modules/light-switch</GitBadges>
+<GitBadges>@magic-modules/light-switch</GitBadges>
 
 ## installation
 
