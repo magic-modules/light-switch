@@ -6,7 +6,7 @@ export const View = (state = {}) => {
       class: 'LightSwitch',
       onclick: actions.changeTheme,
     },
-    svg({ viewBox: '0 0 352 460' }, [
+    svg({ class: 'icon', viewBox: '0 0 352 460' }, [
       path({ d: 'M149 48C96 48 48 95 47 143c-1 13 19 17 20 0-1-35 48-75 83-75 15 0 12-22-1-20z' }),
       path({
         d:
