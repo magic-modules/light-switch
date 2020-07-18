@@ -68,5 +68,8 @@ bump required node version to 14.2.0
 ##### 0.0.7
 add icon css class to svg
 
-##### 0.0.8 - unreleased
+##### 0.0.8 
+set default height and width in svg only
+
+##### 0.0.9 - unreleased
 ...
