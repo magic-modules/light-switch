@@ -65,5 +65,8 @@ default colors are adapted for @magic-themes/docs
 ##### 0.0.6 
 bump required node version to 14.2.0
 
-##### 0.0.7 - unreleased
+##### 0.0.7
+add icon css class to svg
+
+##### 0.0.8 - unreleased
 ...
