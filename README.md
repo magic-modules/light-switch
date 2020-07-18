@@ -71,5 +71,10 @@ add icon css class to svg
 ##### 0.0.8 
 set default height and width in svg only
 
-##### 0.0.9 - unreleased
+##### 0.0.9
+* fix positioning
+* remove button container
+* simplify css
+
+##### 0.0.10 - unreleased
 ...
