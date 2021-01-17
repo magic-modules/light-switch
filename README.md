@@ -76,5 +76,8 @@ set default height and width in svg only
 * remove button container
 * simplify css
 
-##### 0.0.10 - unreleased
+##### 0.0.10 
+bump required node version to 14.15.4
+
+##### 0.0.11 - unreleased
 ...
