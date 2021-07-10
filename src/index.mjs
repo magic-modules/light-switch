@@ -1,23 +1,24 @@
 export const View = (state = {}) => {
   CHECK_PROPS(state, propTypes, 'LightSwitch')
 
-  return svg({
-    class: 'LightSwitch icon',
-    onclick: actions.changeTheme,
-    height: 25,
-    width: 25,
-    viewBox: '0 0 352 460'
-  }, [
-    path({ d: 'M149 48C96 48 48 95 47 143c-1 13 19 17 20 0-1-35 48-75 83-75 15 0 12-22-1-20z' }),
-    path({
-      d:
-        'M176 0C74 0 0 83 0 176c9 91 84 118 100 204h20c-16-92-97-138-100-204C22 70 105 21 176 20zM95 400c2 68 20 48 40 60h82c20-12 38 8 40-60z',
-    }),
-    path({
-      d:
-        'M175 0c102 0 177 83 177 176-9 91-86 118-102 204h-20c16-92 99-138 102-204-2-106-86-155-157-156z',
-    }),
-  ])
+  return svg(
+    {
+      class: 'LightSwitch icon',
+      onclick: actions.changeTheme,
+      height: 25,
+      width: 25,
+      viewBox: '0 0 352 460',
+    },
+    [
+      path({ d: 'M149 48C96 48 48 95 47 143c-1 13 19 17 20 0-1-35 48-75 83-75 15 0 12-22-1-20z' }),
+      path({
+        d: 'M176 0C74 0 0 83 0 176c9 91 84 118 100 204h20c-16-92-97-138-100-204C22 70 105 21 176 20zM95 400c2 68 20 48 40 60h82c20-12 38 8 40-60z',
+      }),
+      path({
+        d: 'M175 0c102 0 177 83 177 176-9 91-86 118-102 204h-20c16-92 99-138 102-204-2-106-86-155-157-156z',
+      }),
+    ],
+  )
 }
 
 export const state = {
