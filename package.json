@@ -1,6 +1,6 @@
 {
   "name": "@magic-modules/light-switch",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "author": "Wizards & Witches",
   "description": "@magic-modules LightSwitch. change colors to dark mode.",
   "homepage": "https://github.com/magic-modules/light-switch#readme",
