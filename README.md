@@ -1,4 +1,5 @@
 ## @magic-modules/light-switch
+
 this is the [@magic-modules](https://github.com/magic-modules/)
 LightSwitch component. It provides a dynamic dark/light mode switch button
 
@@ -25,11 +26,13 @@ LightSwitch component. It provides a dynamic dark/light mode switch button
 [snyk-url]: https://snyk.io/test/github/magic-modules/light-switch
 
 #### install:
+
 ```bash
 npm install --save-exact @magic-modules/light-switch
 ```
 
 #### usage:
+
 ```javascript
 // in any component View
 export const View = state => [LightSwitch(state)]
@@ -38,8 +41,10 @@ export const View = state => [LightSwitch(state)]
 thats it, your magic app now knows displays a LightSwitch in the top right.
 
 #### positioning
+
 to position LightSwitch in another corner,
 simply pass `left` and/or `bottom` as part of the props:
+
 ```javascript
 export const View = state => [LightSwitch({ ...state, left: true, bottom: true })]
 ```
@@ -47,39 +52,50 @@ export const View = state => [LightSwitch({ ...state, left: true, bottom: true }
 #### changelog
 
 ##### 0.0.1
+
 first commit
 
 ##### 0.0.2
+
 use @magic npm packages instead of github for installs
 
 ##### 0.0.3
+
 default colors are adapted for @magic-themes/docs
 
 ##### 0.0.4
-* require node 13.5.0
-* use svg graphic instead of a dot
+
+- require node 13.5.0
+- use svg graphic instead of a dot
 
 ##### 0.0.5
-* update svg
 
-##### 0.0.6 
+- update svg
+
+##### 0.0.6
+
 bump required node version to 14.2.0
 
 ##### 0.0.7
+
 add icon css class to svg
 
-##### 0.0.8 
+##### 0.0.8
+
 set default height and width in svg only
 
 ##### 0.0.9
-* fix positioning
-* remove button container
-* simplify css
 
-##### 0.0.10 
+- fix positioning
+- remove button container
+- simplify css
+
+##### 0.0.10
+
 bump required node version to 14.15.4
 
 ##### 0.0.11
+
 update dependencies
 
 ##### 0.0.12
@@ -87,4 +103,5 @@ update dependencies
 update dependencies
 
 ##### 0.0.13 - unreleased
+
 ...
